@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+< html  lang =" it " >
+    < testa >
+        < meta  charset =" UTF-8 " >
+        < meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
+        < meta  name =" viewport " content =" width=larghezza-dispositivo, scala-iniziale=1.0 " >
+        < title > Documento </ title >
+    </ capo >
+    < stile >
+        td ,  th ,  tr {
+            bordo :  1 px nero pieno;
+            text-align : centro;
+        }
+        h1 {
+            text-align : centro;
+        }
+        corpo {
+            colore di sfondo : grigio chiaro;
+        }
+        div {
+            larghezza :  600 px ;
+            altezza :  250 px ;
+            bordo :  1 px nero pieno;
+            scatola-ombra :  0  2 px  4 px ;
+            colore di sfondo : bianco;
+        }
+        img {
+            larghezza :  600 px ;
+            altezza :  250 px ;
+        }
+    </ stile >
+    < corpo >
+        < h1 > Operatore logico OR </ h1 >
+        < p > L'operatore logico OR, ovvero "oppure" in italiano, è un operatore logico che funziona da selettore tra due o più opzioni. </ p >
+        < p > Può essere paragonato ad una dipendenza. Data la frase "Sto mangiando o sto bevendo", determiniamo A (Sto mangiando) e B (Sto bevendo). </ p >
+        < p > L'affermazione A+B è vera se una frase è vera. Se tutte le frasi sono false , l' affermazione è falsa
+        < img  src =" o.png " alt =" o " >
+        < tabella >
+            < tr >
+                < th > A </ th >
+                < th > B </ th >
+                < th > A o B </ th >
+            </ tr >
+            < tr >
+                < td > 0 </ td >
+                < td > 0 </ td >
+                < td > 0 </ td >
+            </ tr >
+            < tr >
+                < td > 1 </ td >
+                < td > 0 </ td >
+                < td > 1 </ td >
+            </ tr >
+            < tr >
+                < td > 0 </ td >
+                < td > 1 </ td >
+                < td > 1 </ td >
+            </ tr >
+            < tr >
+                < td > 1 </ td >
+                < td > 1 </ td >
+                < td > 1 </ td >
+            </ tr >
+        </ tabella >
+    </ corpo >
+</ html >
